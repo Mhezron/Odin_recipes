@@ -9,24 +9,19 @@ body{
 .header {
     display: flex;
     box-shadow: 3px 3px 5px rgb(0, 0, 0, 0.1) ;
-    justify-content: flex-end;
+    justify-content: space-between;
+    align-items: center;
     margin-bottom: 50px;
     background-color: whitesmoke;
 }
 
-.title {
-    color: rgb(165, 8, 209);
-    padding: auto;
-    justify-content: flex-start;
-    align-items: center;
-    
-}
 
 
 
 .nav {
     display: flex;
     color: rgb(217, 36, 78);
+    flex-wrap: wrap;
 }
 
 .nav h3 {
